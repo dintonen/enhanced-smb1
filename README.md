@@ -11,6 +11,7 @@
 ## Not fixed bugs
 - Piranha Plant disappearing in the first section of 8-4 ([video of Bismuth explaining the bug](https://youtu.be/U7RzoIEoSMY?t=1316))
 - Small Fire Mario
+
 *and more...*
 
 # How to compile
