@@ -1,5 +1,7 @@
 **Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
 
+I have uploaded it to [RHDN](https://romhacking.net), however it's in the submission queue status. I can only hope that the mods will approve it...
+
 ![Title Screen](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-1.png)
 ![World 1-2](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-0.png)
 ![World 1-3](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-3.png)
