@@ -22,7 +22,7 @@
 
 # Download
 You can download the latest version of the ROM hack [here](https://github.com/gamingwithevets/enhanced-smb1/releases/latest/download/enhanced-smb1.zip).  
-Use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Python) along with a clean SMB1 ROM to apply the hack.
+Use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Python) along with a clean, NTSC Super Mario Bros. ROM to apply the hack.
 # How to compile
 NOTE: You should really use the IPS file above instead of building the ROM from scratch. If you're willing to do this, good luck...
 ## Step 0
@@ -42,7 +42,7 @@ Execute these two commands in a terminal:
 ca65 -t nes enhanced-smb1.asm -o enhanced-smb1.o
 ld65 -C nrom.cfg -o enhanced-smb1.nes enhanced-smb1.o
 ```
-If no errors happen, a file named `enhanced-smb1.nes` will be created. You can use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Python) along with a clean SMB1 ROM to create an IPS file.
+If no errors happen, a file named `enhanced-smb1.nes` will be created. You can use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Python) along with an NTSC SMB1 ROM to create an IPS file.
 
 # Credits
 Thanks to MrWint and doppelganger for providing the disassembly of Super Mario Bros. If not, this project would not have been possible.
