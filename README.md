@@ -39,7 +39,7 @@ Follow the instructions in the README to compile CC65. (note: I have not compile
 Download the latest Windows snapshot [here](https://sourceforge.net/projects/cc65/files/cc65-snapshot-win32.zip). Extract the executables `ca65.exe` and `ld65.exe` from within the `bin` folder. Copy them to the root of the repo folder.
 
 ## Step 2
-Execute these two commands in a terminal:
+Open a terminal and run these commands in the root of the repo folder:
 ```
 ca65 -t nes enhanced-smb1.asm -o enhanced-smb1.o
 ld65 -C nrom.cfg -o enhanced-smb1.nes enhanced-smb1.o
