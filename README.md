@@ -19,7 +19,7 @@
 Download the repo or clone it with `git`. This is self-explanatory.
 ## Step 1
 Download CC65.
-### Linux
+### Linux/WSL
 Click [here](https://github.com/cc65/cc65/releases/latest) or `git clone https://github.com/cc65/cc65.git` and download the source code.  
 Follow the instructions in the README to compile CC65.
 
@@ -32,7 +32,7 @@ Execute these two commands in a terminal:
 ca65 -t nes enhanced-smb1.asm -o enhanced-smb1.o
 ld65 -C nrom.cfg -o enhanced-smb1.nes enhanced-smb1.o
 ```
-If no errors happen, a file named `enhanced-smb1.nes` will be created. You can use Lunar IPS along with a clean SMB1 ROM to create an IPS file.
+If no errors happen, a file named `enhanced-smb1.nes` will be created. You can use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Linux/WSL) along with a clean SMB1 ROM to create an IPS file.
 
 # Credits
 Thanks to MrWint and doppelganger for providing the disassembly of Super Mario Bros. If not, this project would not have been possible.
