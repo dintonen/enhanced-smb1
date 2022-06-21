@@ -18,13 +18,14 @@
 You can download the latest version of the ROM hack [here](https://github.com/gamingwithevets/enhanced-smb1/releases/latest/download/enhanced-smb1.ips).  
 Use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Python) along with a clean SMB1 ROM to apply the hack.
 # How to compile
+NOTE: You should really use the IPS file above instead of building the ROM from scratch. If you're willing to do this, good luck...
 ## Step 0
 Download the repo or clone it with `git`. This is self-explanatory.
 ## Step 1
 Download CC65.
 ### Linux/WSL
 Click [here](https://github.com/cc65/cc65/releases/latest) or `git clone https://github.com/cc65/cc65.git` and download the source code.  
-Follow the instructions in the README to compile CC65.
+Follow the instructions in the README to compile CC65. (note: I have not compiled CC65 myself because I use Windows, okay)
 
 ### Windows
 Download the latest Windows snapshot [here](https://sourceforge.net/projects/cc65/files/cc65-snapshot-win32.zip). Extract the executables `ca65.exe` and `ld65.exe` from within the `bin` folder. Copy them to the root of the repo folder.
