@@ -1,6 +1,6 @@
 **Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
 
-v1.0.0 is now released, and now I'm uploading it to RHDN again. I hope the mods will accept it, as now it's not a beta anymore.
+v1.0.0 is now released, and now I'm uploading it to [RHDN](https://romhacking.net/) again. I hope the mods will accept it, as now it's not a beta anymore.
 
 ![Title Screen](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img0.png)
 ![World 1-2](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img1.png)
