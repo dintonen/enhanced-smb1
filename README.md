@@ -47,8 +47,11 @@ If no errors happen, a file named `enhanced-smb1.nes` will be created. You can u
 # Credits
 Thanks to MrWint and doppelganger for providing the disassembly of Super Mario Bros. If not, this project would not have been possible.
 
-CHR extracted with [NesExtract](https://github.com/X-death25/Nes-Extract) and edited with [Tile Layer Pro](https://www.romhacking.net/utilities/108/) (graphics) and [SMB Title Editor](https://www.romhacking.net/utilities/1513/) (title screen)
+CHR extracted with NesExtract and edited with Tile Layer Pro (graphics) and SMB Title Editor (title screen)
 
-Sources:  
+## Sources
 [MrWint's modified SMB1 disassembly (+ PAL version)](https://github.com/MrWint/smb-dis)  
-[doppelganger's original SMB1 disassembly](https://gist.github.com/1wErt3r/4048722)
+[doppelganger's original SMB1 disassembly](https://gist.github.com/1wErt3r/4048722)  
+[NesExtract](https://github.com/X-death25/Nes-Extract)  
+[Tile Layer Pro](https://www.romhacking.net/utilities/108/)  
+[SMB Title Editor (English)](https://www.romhacking.net/utilities/1513/)
