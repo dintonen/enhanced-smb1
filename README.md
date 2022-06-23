@@ -1,9 +1,9 @@
 **Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
 
-![Title Screen](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-1.png)
-![World 1-2](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-0.png)
-![World 1-3](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-3.png)
-![Ending](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-2.png)
+![Title Screen](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img0.png)
+![World 1-2](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img1.png)
+![World 1-3](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img2.png)
+![Ending](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img3.png)
 
 # Features
 - SMB2J graphics
