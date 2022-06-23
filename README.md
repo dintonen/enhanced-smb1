@@ -1,7 +1,5 @@
 **Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
 
-I tried to upload it to [RHDN](https://romhacking.net/). But they don't accept beta, alpha or demo versions of ROM hacks. Screw RHDN! Better release v1.0.0 soon then.
-
 ![Title Screen](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-1.png)
 ![World 1-2](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-0.png)
 ![World 1-3](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/enhanced-smb1-3.png)
@@ -18,7 +16,7 @@ I tried to upload it to [RHDN](https://romhacking.net/). But they don't accept b
 ## Not fixed bugs
 - Piranha Plant disappearing in the first section of 8-4 ([video of Bismuth explaining the bug](https://youtu.be/U7RzoIEoSMY?t=1316))
 - Small Fire Mario
-- Missing "0" in high score (accidental bug when modifying title screen)
+- ~~Missing "0" in high score (accidental bug when modifying title screen)~~ Fixed in v1.0.0
 
 *and more...*
 
