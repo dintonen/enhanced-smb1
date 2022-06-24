@@ -7,8 +7,8 @@ v1.0.0 is now released, and I tried uploading it to [RHDN](https://romhacking.ne
 Well then, it's time for attempt 3 of uploading this ROM hack to RHDN! They better accept it.
 
 RHDN upload attempts:
-|Attempt No.| Upload Version | Status | Reason |
-|--|--|--|
+| Attempt No. | Upload Version | Status | Reason |
+|--|--|--|--|
 | 1 | Beta 1.0.0 | Rejected | Demos, alphas and betas are not accepted |
 | 2 | 1.0.0 | Rejected | Needs a detailed description |
 | 3 | 1.0.0 | N/A | N/A |
