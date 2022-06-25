@@ -3,15 +3,7 @@
 Super Mario Bros., even with its many glitches, was where Mario was born, for a lot of people in the West. But looking back at it now, it looks very basic. The game's glitches are also everywhere.  
 That's why the Enhanced Super Mario Bros. ROM hack project was born. The project aims to fix the game's many bugs and glitches, even ones that players at the time were not aware of, as well as replace the game's graphics with newer but still official ones, from the original version of the Japanese Super Mario Bros. 2, a.k.a. Super Mario Bros.: The Lost Levels.
 
-v1.0.0 is now released, and I tried uploading it to [RHDN](https://romhacking.net/) again. Unfortunately they needed a detailed description, but I thought a README was enough. I guess not.  
-Well then, it's time for attempt 3 of uploading this ROM hack to RHDN! They better accept it.
-
-RHDN upload attempts:
-| Attempt No. | Upload Version | Status | Reason for Rejection |
-|--|--|--|--|
-| 1 | Beta 1.0.0 | Rejected | Demos, alphas and betas are not accepted |
-| 2 | 1.0.0 | Rejected | Needs a detailed description |
-| 3 | 1.0.0 | N/A | N/A |
+[View the ROM hack on ROMhacking.net](https://www.romhacking.net/hacks/6953/)
 
 ![Title Screen](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img0.png)
 ![World 1-2](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img1.png)
