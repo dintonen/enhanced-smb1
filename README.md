@@ -37,7 +37,7 @@ Download CC65.
 ### Linux/WSL
 Click [here](https://github.com/cc65/cc65/releases/latest) and download the source code or `git clone https://github.com/cc65/cc65.git`. The latter is not recommended as it is a development version.  
 Now, place yourself in the root of the CC65 repository, run `make` then CTRL+C when you see binaries in the `bin` folder.  
-Then run `sudo make avail`, which creates symbolic links to the binaries. This is optional, but really helpful if you don't like typing the path to the binaries
+Then run `sudo make avail`, which creates symbolic links to the binaries. This is optional, but really helpful if you don't like typing the path to the binaries. Also make sure the path to the binaries doesn't have a space, or the command will **fail**!
 
 ### Windows
 Download the latest Windows snapshot [here](https://sourceforge.net/projects/cc65/files/cc65-snapshot-win32.zip). Extract the executables `ca65.exe` and `ld65.exe` from within the `bin` folder. Copy them to the root of the repo folder.
