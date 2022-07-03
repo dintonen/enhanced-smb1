@@ -35,14 +35,15 @@ Download the repo or clone it with `git`. This is self-explanatory.
 ## Step 1
 Download CC65.
 ### Linux/WSL
-Click [here](https://github.com/cc65/cc65/releases/latest) or `git clone https://github.com/cc65/cc65.git` and download the source code.  
-Follow the instructions in the README to compile CC65. (note: I have not compiled CC65 myself because I use Windows, okay)
+Click [here](https://github.com/cc65/cc65/releases/latest) and download the source code or `git clone https://github.com/cc65/cc65.git`. The latter is not recommended as it is a development version.  
+Now, place yourself in the root of the CC65 repository, run `make` then CTRL+C when you see binaries in the `bin` folder.  
+Then run `sudo make avail`, which creates symbolic links to the binaries. This is optional, but really helpful if you don't like typing the path to the binaries
 
 ### Windows
 Download the latest Windows snapshot [here](https://sourceforge.net/projects/cc65/files/cc65-snapshot-win32.zip). Extract the executables `ca65.exe` and `ld65.exe` from within the `bin` folder. Copy them to the root of the repo folder.
 
 ## Step 2
-Open a terminal and run these commands in the root of the repo folder:
+Open a terminal and run these commands in the root of the repo folder. Replace `ca65` and `ld65` with the path to the binaries if necessary.
 ```
 ca65 -t nes enhanced-smb1.asm -o enhanced-smb1.o
 ld65 -C nrom.cfg -o enhanced-smb1.nes enhanced-smb1.o
