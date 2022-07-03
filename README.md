@@ -54,9 +54,12 @@ Thanks to MrWint and doppelganger for providing the disassembly of Super Mario B
 
 CHR extracted with NesExtract and edited with Tile Layer Pro (graphics) and SMB Title Editor (title screen).
 
+Modified `nrom.cfg` from nesdoug.
+
 ## Sources
 [MrWint's modified SMB1 disassembly (+ PAL version)](https://github.com/MrWint/smb-dis)  
 [doppelganger's original SMB1 disassembly](https://gist.github.com/1wErt3r/4048722)  
 [NesExtract](https://github.com/X-death25/Nes-Extract)  
 [Tile Layer Pro](https://www.romhacking.net/utilities/108/)  
-[SMB Title Editor (English)](https://www.romhacking.net/utilities/1513/)
+[SMB Title Editor (English)](https://www.romhacking.net/utilities/1513/)  
+[nesdoug's NROM configuration file](https://github.com/nesdoug/26_Full_Game/blob/master/nrom_32k_vert.cfg)
