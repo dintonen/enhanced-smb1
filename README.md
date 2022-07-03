@@ -1,7 +1,7 @@
 **Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
 
 Super Mario Bros., even with its many glitches, was where Mario was born, for a lot of people in the West. But looking back at it now, it looks very basic. The game's glitches are also everywhere.  
-That's why the Enhanced Super Mario Bros. ROM hack project was born. The project aims to fix the game's many bugs and glitches, even ones that players at the time were not aware of, as well as replace the game's graphics with newer but still official ones, from the original version of the Japanese Super Mario Bros. 2, a.k.a. Super Mario Bros.: The Lost Levels.
+That's why the Enhanced Super Mario Bros. ROM hack project was born. The project aims to fix the game's many bugs and glitches, even ones that players at the time were not aware of, as well as replace the game's graphics with newer but still official ones, from the original version of Super Mario Bros.: The Lost Levels.
 
 [View the ROM hack on ROMhacking.net](https://www.romhacking.net/hacks/6953/)
 
