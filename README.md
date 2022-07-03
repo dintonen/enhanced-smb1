@@ -50,9 +50,9 @@ ld65 -C nrom.cfg -o enhanced-smb1.nes enhanced-smb1.o
 If no errors happen, a file named `enhanced-smb1.nes` will be created. You can use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Python) along with an NTSC SMB1 ROM to create an IPS file.
 
 # Credits
-Thanks to MrWint and doppelganger for providing the disassembly of Super Mario Bros. If not, this project would not have been possible.
+Thanks to MrWint and doppelganger for providing the disassembly of Super Mario Bros. If not, this project would not have been possible... without some ROM editing, which is totally not cool. :/
 
-CHR extracted with NesExtract and edited with Tile Layer Pro (graphics) and SMB Title Editor (title screen)
+CHR extracted with NesExtract and edited with Tile Layer Pro (graphics) and SMB Title Editor (title screen).
 
 ## Sources
 [MrWint's modified SMB1 disassembly (+ PAL version)](https://github.com/MrWint/smb-dis)  
