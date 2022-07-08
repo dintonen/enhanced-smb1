@@ -64,3 +64,6 @@ Modified `nrom.cfg` from nesdoug.
 [Tile Layer Pro](https://www.romhacking.net/utilities/108/)  
 [SMB Title Editor (English)](https://www.romhacking.net/utilities/1513/)  
 [nesdoug's NROM configuration file](https://github.com/nesdoug/26_Full_Game/blob/master/nrom_32k_vert.cfg)
+
+
+(PS: I am the 300th downloader lol)
