@@ -3,7 +3,8 @@
 Super Mario Bros., even with its many glitches, was where Mario was born, for a lot of people in the West. But looking back at it now, it looks very basic. The game's glitches are also everywhere.  
 That's why the Enhanced Super Mario Bros. ROM hack project was born. The project aims to fix the game's many bugs and glitches, even ones that players at the time were not aware of, as well as replace the game's graphics with newer but still official ones, from the original version of Super Mario Bros.: The Lost Levels.
 
-[View the ROM hack on ROMhacking.net](https://www.romhacking.net/hacks/6953/) (v1.0.2 update pending!)
+[View the ROM hack on ROMhacking.net](https://www.romhacking.net/hacks/6953/)  
+Fun fact: It appeared on Google...I did not expect that
 
 ![Title Screen](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img0.png)
 ![World 1-2](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img1.png)
