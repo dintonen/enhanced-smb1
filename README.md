@@ -4,7 +4,6 @@ Super Mario Bros., even with its many glitches, was where Mario was born, for a 
 That's why the Enhanced Super Mario Bros. ROM hack project was born. The project aims to fix the game's many bugs and glitches, even ones that players at the time were not aware of, as well as replace the game's graphics with newer but still official ones, from the original version of Super Mario Bros.: The Lost Levels.
 
 [View the ROM hack on ROMhacking.net](https://www.romhacking.net/hacks/6953/)  
-Fun fact: It appeared on Google...I did not expect that
 
 ![Title Screen](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img0.png)
 ![World 1-2](https://raw.githubusercontent.com/gamingwithevets/enhanced-smb1/main/img1.png)
@@ -20,7 +19,7 @@ Fun fact: It appeared on Google...I did not expect that
 - - Spiny Egg behavior bugfix (read more on [The Cutting Room Floor](https://tcrf.net/Super_Mario_Bros.#Unused_Spiny_Egg_Behavior)) (TASes will lose to these Spiny Eggs)
 - Mushroom jump bugfix (read more on the [Super Mario Wiki](https://www.mariowiki.com/List_of_Super_Mario_Bros._glitches#Mushroom_Jump))
 ## Not fixed bugs
-- Piranha Plant disappearing in the first section of 8-4 ([video of Bismuth explaining the bug](https://youtu.be/U7RzoIEoSMY?t=1316))
+- ~~Piranha Plant disappearing in the first section of 8-4 ([video of Bismuth explaining the bug](https://youtu.be/U7RzoIEoSMY?t=1316))~~ Fixed in v1.0.3
 - Small Fire Mario
 - ~~Missing "0" in high score (accidental bug when modifying title screen)~~ Fixed in v1.0.0
 
