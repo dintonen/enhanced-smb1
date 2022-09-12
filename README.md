@@ -1,4 +1,4 @@
-**Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
+9**Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
 
 Super Mario Bros., even with its many glitches, was where Mario was born, for a lot of people in the West. But looking back at it now, it looks very basic. The game's glitches are also everywhere.  
 That's why the Enhanced Super Mario Bros. ROM hack project was born. The project aims to fix the game's many bugs and glitches, even ones that players at the time were not aware of, as well as replace the game's graphics with newer but still official ones, from the original version of Super Mario Bros.: The Lost Levels.
@@ -61,9 +61,10 @@ Modified `nrom.cfg` from nesdoug.
 [MrWint's modified SMB1 disassembly (+ PAL version)](https://github.com/MrWint/smb-dis)  
 [doppelganger's original SMB1 disassembly](https://gist.github.com/1wErt3r/4048722)  
 [NesExtract](https://github.com/X-death25/Nes-Extract)  
+[HxD Hex Editor](https://mh-nexus.de/en/hxd/)  
 [Tile Layer Pro](https://www.romhacking.net/utilities/108/)  
 [SMB Title Editor (English)](https://www.romhacking.net/utilities/1513/)  
 [nesdoug's NROM configuration file](https://github.com/nesdoug/26_Full_Game/blob/master/nrom_32k_vert.cfg)
 
 
-(PS: I am the 300th downloader lol)
+(PS: I am the 300th downloader of this ROM hack on RHDN, lol)
