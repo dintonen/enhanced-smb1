@@ -1,4 +1,4 @@
-9**Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
+**Enhanced Super Mario Bros.**, a ROM hack by Dintonen Inc. (not associated with Nintendo Co., Ltd.)
 
 Super Mario Bros., even with its many glitches, was where Mario was born, for a lot of people in the West. But looking back at it now, it looks very basic. The game's glitches are also everywhere.  
 That's why the Enhanced Super Mario Bros. ROM hack project was born. The project aims to fix the game's many bugs and glitches, even ones that players at the time were not aware of, as well as replace the game's graphics with newer but still official ones, from the original version of Super Mario Bros.: The Lost Levels.
@@ -27,7 +27,8 @@ That's why the Enhanced Super Mario Bros. ROM hack project was born. The project
 
 # Download
 You can download the latest version of the ROM hack [here](https://github.com/gamingwithevets/enhanced-smb1/releases/latest/download/enhanced-smb1.zip).  
-Use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Python) along with a clean, NTSC Super Mario Bros. ROM to apply the hack.
+Use [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows) or the [Linux IPS Tool](https://github.com/kylon/Lipx) (Python) along with a clean, NTSC Super Mario Bros. ROM to apply the hack. Or if your emulator supports auto-applying IPS patches, just place the original ROM and the IPS file in the same folder and make sure they have the same filename.
+
 # How to compile
 NOTE: You should really use the IPS file above instead of building the ROM from scratch. If you're willing to do this, good luck...
 ## Step 0
