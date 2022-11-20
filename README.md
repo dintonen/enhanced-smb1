@@ -13,11 +13,11 @@ That's why the Enhanced Super Mario Bros. ROM hack project was born. The project
 # Features
 - SMB2J graphics
 - European (PAL) version bug fixes and changes (except for changes made to compensate FPS difference)
-- More bug fixes:
+- More bug fixes, e.g.:
 - - Minus World bugfix + scroll unlocker fix by Mike Schiraldi, covered by [Displaced Gamers](https://www.youtube.com/watch?v=61m5MiyC17s) (read more on the [Super Mario Wiki](https://www.mariowiki.com/Minus_World)) (you don't go to Minus World anymore)
 - - Wrong warp bugfix in 4-2 and 8-4 (read more on the [Super Mario Wiki](https://www.mariowiki.com/List_of_Super_Mario_Bros._glitches#Wrong_Warp)) (sorry speedrunners)
 - - Spiny Egg behavior bugfix (read more on [The Cutting Room Floor](https://tcrf.net/Super_Mario_Bros.#Unused_Spiny_Egg_Behavior)) (TASes will lose to these Spiny Eggs)
-- Mushroom jump bugfix (read more on the [Super Mario Wiki](https://www.mariowiki.com/List_of_Super_Mario_Bros._glitches#Mushroom_Jump))
+- - Mushroom jump bugfix (read more on the [Super Mario Wiki](https://www.mariowiki.com/List_of_Super_Mario_Bros._glitches#Mushroom_Jump))
 ## Not fixed bugs
 - ~~Piranha Plant disappearing in the first section of 8-4 ([video of Bismuth explaining the bug](https://youtu.be/U7RzoIEoSMY?t=1316))~~ Fixed in v1.0.3
 - Small Fire Mario
