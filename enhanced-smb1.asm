@@ -4453,12 +4453,12 @@ WorldAddrOffsets:
 AreaAddrOffsets:
 World1Areas: .byte $25, $29, $c0, $26, $60
 World2Areas: .byte $28, $29, $01, $27, $62
-World3Areas: .byte $24, $35, $20, $63
+World3Areas: .byte $24,      $35, $20, $63
 World4Areas: .byte $22, $29, $41, $2c, $61
-World5Areas: .byte $2a, $31, $26, $62
-World6Areas: .byte $2e, $23, $2d, $60
+World5Areas: .byte $2a,      $31, $26, $62
+World6Areas: .byte $2e,      $23, $2d, $60
 World7Areas: .byte $33, $29, $01, $27, $64
-World8Areas: .byte $30, $32, $21, $65
+World8Areas: .byte $30,      $32, $21, $65
 
 ;bonus area data offsets, included here for comparison purposes
 ;underground bonus area  - c2
@@ -4468,6 +4468,7 @@ World8Areas: .byte $30, $32, $21, $65
 ;water area (8-4)        - 02
 ;warp zone area (4-2)    - 2f
 
+; IMPROVEMENT: same level order for enemy and area data table
 EnemyAddrHOffsets:
       .byte $1f, $06, $1c, $00
 
@@ -4488,23 +4489,23 @@ EnemyDataAddrHigh:
       .byte >E_UndergroundArea2, >E_UndergroundArea3, >E_WaterArea1, >E_WaterArea2, >E_WaterArea3
 
 AreaDataHOffsets:
-      .byte $00, $03, $19, $1c
+      .byte $1f, $06, $1c, $00
 
 AreaDataAddrLow:
-      .byte <L_WaterArea1, <L_WaterArea2, <L_WaterArea3, <L_GroundArea1, <L_GroundArea2, <L_GroundArea3
-      .byte <L_GroundArea4, <L_GroundArea5, <L_GroundArea6, <L_GroundArea7, <L_GroundArea8, <L_GroundArea9
-      .byte <L_GroundArea10, <L_GroundArea11, <L_GroundArea12, <L_GroundArea13, <L_GroundArea14, <L_GroundArea15
-      .byte <L_GroundArea16, <L_GroundArea17, <L_GroundArea18, <L_GroundArea19, <L_GroundArea20, <L_GroundArea21
-      .byte <L_GroundArea22, <L_UndergroundArea1, <L_UndergroundArea2, <L_UndergroundArea3, <L_CastleArea1
-      .byte <L_CastleArea2, <L_CastleArea3, <L_CastleArea4, <L_CastleArea5, <L_CastleArea6
+      .byte <L_CastleArea1, <L_CastleArea2, <L_CastleArea3, <L_CastleArea4, <L_CastleArea5, <L_CastleArea6
+      .byte <L_GroundArea1, <L_GroundArea2, <L_GroundArea3, <L_GroundArea4, <L_GroundArea5, <L_GroundArea6
+      .byte <L_GroundArea7, <L_GroundArea8, <L_GroundArea9, <L_GroundArea10, <L_GroundArea11, <L_GroundArea12
+      .byte <L_GroundArea13, <L_GroundArea14, <L_GroundArea15, <L_GroundArea16, <L_GroundArea17, <L_GroundArea18
+      .byte <L_GroundArea19, <L_GroundArea20, <L_GroundArea21, <L_GroundArea22, <L_UndergroundArea1
+      .byte <L_UndergroundArea2, <L_UndergroundArea3, <L_WaterArea1, <L_WaterArea2, <L_WaterArea3
 
 AreaDataAddrHigh:
-      .byte >L_WaterArea1, >L_WaterArea2, >L_WaterArea3, >L_GroundArea1, >L_GroundArea2, >L_GroundArea3
-      .byte >L_GroundArea4, >L_GroundArea5, >L_GroundArea6, >L_GroundArea7, >L_GroundArea8, >L_GroundArea9
-      .byte >L_GroundArea10, >L_GroundArea11, >L_GroundArea12, >L_GroundArea13, >L_GroundArea14, >L_GroundArea15
-      .byte >L_GroundArea16, >L_GroundArea17, >L_GroundArea18, >L_GroundArea19, >L_GroundArea20, >L_GroundArea21
-      .byte >L_GroundArea22, >L_UndergroundArea1, >L_UndergroundArea2, >L_UndergroundArea3, >L_CastleArea1
-      .byte >L_CastleArea2, >L_CastleArea3, >L_CastleArea4, >L_CastleArea5, >L_CastleArea6
+      .byte >L_CastleArea1, >L_CastleArea2, >L_CastleArea3, >L_CastleArea4, >L_CastleArea5, >L_CastleArea6
+      .byte >L_GroundArea1, >L_GroundArea2, >L_GroundArea3, >L_GroundArea4, >L_GroundArea5, >L_GroundArea6
+      .byte >L_GroundArea7, >L_GroundArea8, >L_GroundArea9, >L_GroundArea10, >L_GroundArea11, >L_GroundArea12
+      .byte >L_GroundArea13, >L_GroundArea14, >L_GroundArea15, >L_GroundArea16, >L_GroundArea17, >L_GroundArea18
+      .byte >L_GroundArea19, >L_GroundArea20, >L_GroundArea21, >L_GroundArea22, >L_UndergroundArea1
+      .byte >L_UndergroundArea2, >L_UndergroundArea3, >L_WaterArea1, >L_WaterArea2, >L_WaterArea3
 
 ;ENEMY OBJECT DATA
 
@@ -4720,8 +4721,8 @@ E_UndergroundArea1:
 
 ;level 4-2
 E_UndergroundArea2:
-      .byte $0f, $02, $1e, $2f, $60, $e0, $3a, $a5, $a7, $db, $80
-      .byte $3b, $82, $8b, $02, $5e, $42, $68, $70, $bb, $25, $a7
+      .byte $0f, $02, $1e, $2f, $60, $e0, $3a, $a5, $a7, $3b, $82
+      .byte $db, $00, $0e, $c2, $68, $3b, $02, $70, $bb, $25, $a7 ; wrong warp bugfix
       .byte $2c, $27, $b2, $26, $b9, $26, $9b, $80, $a8, $82
       .byte $b5, $27, $bc, $27, $b0, $bb, $3b, $82, $87, $34
       .byte $ee, $25, $6b
@@ -5269,7 +5270,7 @@ L_WaterArea3:
 ;-------------------------------------------------------------------------------------
 
 ;unused space
-      .byte $ff
+      .byte $ff, $ff, $ff
 
 ;-------------------------------------------------------------------------------------
 
@@ -9561,7 +9562,7 @@ NoFD: rts                     ;leave
 
 ChkNearPlayer:
       lda Enemy_Y_Position,x    ;get vertical coordinate
-      adc #$0c                  ;add twelve pixels;PAL bugfix: Bloopers can get closer vertically
+      adc #$0c                  ;add twelve pixels -- PAL bugfix: Bloopers can get closer vertically
       cmp Player_Y_Position     ;compare result with player's vertical coordinate
       bcc Floatdown             ;if modified vertical less than player's, branch
       lda #$00
