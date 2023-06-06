@@ -4722,7 +4722,7 @@ E_UndergroundArea1:
 ;level 4-2
 E_UndergroundArea2:
       .byte $0f, $02, $1e, $2f, $60, $e0, $3a, $a5, $a7, $3b, $82
-      .byte $db, $00, $0e, $c2, $68, $3b, $02, $70, $bb, $25, $a7 ; wrong warp bugfix
+      .byte $db, $00, $fe, $42, $68, $3b, $82, $70, $bb, $25, $a7 ; wrong warp bugfix
       .byte $2c, $27, $b2, $26, $b9, $26, $9b, $80, $a8, $82
       .byte $b5, $27, $bc, $27, $b0, $bb, $3b, $82, $87, $34
       .byte $ee, $25, $6b
@@ -8432,7 +8432,7 @@ MaxCC:   sty $00                    ;store whatever pseudorandom bits are in Y
          and #%00000011             ;get last two bits of LSFR, first part
          sta $00                    ;and store in two places
          sta $01
-         lda #$fb                   ;set vertical speed for cheep-cheep
+         lda #$fa                   ;set vertical speed for cheep-cheep [speed change by @SMB2J-2Q (RHDN)]
          sta Enemy_Y_Speed,x
          lda #$00                   ;load default value
          ldy Player_X_Speed         ;check player's horizontal speed
@@ -11477,7 +11477,7 @@ HandleStompedShellE:
        ldy PrimaryHardMode        ;check primary hard mode flag
        lda RevivalRateData,y      ;load timer setting according to flag
        sta EnemyIntervalTimer,x   ;set as enemy timer to revive stomped enemy
-SBnce: lda #$fc                   ;set player's vertical speed for bounce
+SBnce: lda #$fb                   ;set player's vertical speed for bounce [speed change by @SMB2J-2Q (RHDN)]
        sta Player_Y_Speed         ;and then leave!!!
        rts
 
@@ -16313,4 +16313,3 @@ BrickShatterEnvData:
 
 .segment "CHRROM"
 .incbin "smb_chr.chr"
-
